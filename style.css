@@ -1,0 +1,121 @@
+body{
+    margin:00px;
+    
+}
+
+#about-sec{
+    
+    background-color: #f7f5eb;
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 100px;
+}
+
+.about-left{
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 150px;
+    
+
+}
+.about-left h3{
+    color: #80b500;
+}
+
+.about-left h1{
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+.about-left p{
+    border-left: 1px solid black;
+    padding-left:30px;
+    font-size: 20px;
+}
+.about-left a{
+    padding: 10px 20px;
+    background-color: #80b500;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.about-right{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+    font
+}
+/*----about-sec end----*/
+
+/*----garden-info start----*/
+#garden-info{
+    background: #ffffff;
+    padding-top:100px;
+    display: flex;
+}
+.garden-img{
+    width: 50%;
+    padding-left: 100px;
+
+}
+.garden-inf-right{
+    width: 50%;
+    padding-right: 100px;
+    
+}
+.garden-inf-right h4{
+    color: #80b500;
+    font-weight: 900;
+}
+.garden-inf-right .garden-p{
+    border-left: 1px solid black;
+    padding-left:30px;
+    font-size: 20px;
+}
+.garden-inf-right p{
+    font-size: 20px;
+}
+.garden-inf-right h1{
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.garden-inf-right a{
+    padding: 10px 20px;
+    background-color: #80b500;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.director-name{
+    float: right;
+}
+.director-name h2{
+    margin-bottom: -20px;
+}
+/*----garden-info end----*/
+
+
+/*----recipies start----*/
+
+#recipies {
+    margin-top: 100px;
+    background-color: greenyellow;
+    padding-top:20px ; 
+}
+.recipies-h-text{
+    width:50%;
+    margin: 0 auto; 
+    text-align: center;
+   
+}
+.recipies-h-text h1{
+    font-size: 50px;
+    
+}
+.recipies-h-text p{
+    font-size: 20px;
+}
+/*----recipies end----*/
