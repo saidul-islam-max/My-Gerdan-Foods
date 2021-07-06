@@ -59,9 +59,15 @@ body{
 
 /*----garden-info start----*/
 #restaurant-info{
-    
+    padding-left: 100px;
     padding-top:100px;
     display: flex;
+    background-image: url(foods/info-banner.jpg);
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+    
 }
 .restaurant-img{
     width: 50%;
@@ -70,14 +76,15 @@ body{
 }
 .restaurant-inf-right{
     width: 50%;
-    padding-right: 100px;
+    padding-right: 50px;
+    padding-left: 100px;
     
 }
 .restaurant-inf-right h4{
     color: #80b500;
     font-weight: 900;
 }
-.restaurant-inf-right .garden-p{
+.restaurant-inf-right .restaurant-p{
     border-left: 1px solid black;
     padding-left:30px;
     font-size: 20px;
