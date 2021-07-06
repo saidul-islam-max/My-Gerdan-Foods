@@ -3,6 +3,7 @@ body{
     
 }
 
+/*----about-sec start----*/
 #about-sec{
     
     background-color: #f7f5eb;
@@ -26,6 +27,9 @@ body{
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
 }
+.about-left span{
+    color: #80b500
+}
 .about-left p{
     border-left: 1px solid black;
     padding-left:30px;
@@ -33,7 +37,8 @@ body{
 }
 .about-left a{
     padding: 10px 20px;
-    background-color: #80b500;
+    background: linear-gradient(to right, #80b500, #445c0b);
+    
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -50,7 +55,7 @@ body{
 
 /*----garden-info start----*/
 #garden-info{
-    background: #ffffff;
+    
     padding-top:100px;
     display: flex;
 }
@@ -80,10 +85,13 @@ body{
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
 }
+.garden-inf-right h1 span{
+    color:#80b500 ;
+}
 
 .garden-inf-right a{
     padding: 10px 20px;
-    background-color: #80b500;
+    background: linear-gradient(to right, #40550e, #82b116);
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -91,6 +99,7 @@ body{
 }
 .director-name{
     float: right;
+   
 }
 .director-name h2{
     margin-bottom: -20px;
@@ -103,7 +112,9 @@ body{
 #recipies {
     margin-top: 100px;
     background-color:;
-    padding-top:20px ; 
+    padding-top:20px ;
+    padding-bottom: 50px; 
+    background-color:#f9f9f9 ;
 }
 .recipies-h-text{
     width:50%;
@@ -140,3 +151,52 @@ body{
     border-radius: 20px;
 }
 /*----recipies end----*/
+
+/*----counter start----*/
+#counter{
+    padding: 100px;
+    background-color: #f9f9f9;
+}
+.counter-shadow{
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 40px;
+}
+.counter-1{
+    text-align: center;
+    width: 33%;
+}
+
+.counter-1 h1{
+    font-size: 60px;
+}
+.counter-1 p{
+    font-size: 20px;
+}
+/*----counter end----*/
+
+
+
+/*----futer start----*/
+#Contact{
+  
+    text-align: center;
+    background: rgb(12, 29, 17);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+#Contact span{
+    color:yellowgreen
+}
+#Contact h1{
+    font-size: 50px;
+    margin-bottom: -20px;
+}
+#Contact h4{
+    font-size: 20px;
+}
+/*----futer start----*/
